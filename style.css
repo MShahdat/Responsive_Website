@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Area CSS */
+header.header-area {
+    padding: 30px 0;
+    background-color: teal;
+}
+
+.header {
+    display: flex;
+    align-items: space-betwee;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Banner Section CSS */
+.banner-area {
+    padding: 20px 0;
+}
+
+.banner-area img {
+    border: 3px solid #ddd;
+    padding: 3px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+
+
+/* blog and about section css */
+section.about-area {
+    padding: 40px 0;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-title h4 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.column {
+    border: 1px solid #ddd;
+    padding: 20px 30px;
+    flex-basis: 49%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+.column p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.column hr {
+    color: #dddddd73;
+}
+
+.column .mail-title {
+    margin-top: 20px;
+}
+
+.left-column {
+    background-color: #ddd;
+}
+
+.single-blog {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.blog-img {
+    flex: 0 0 50px;
+   
+}
+
+.blog-img img {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ddd;
+}
+
+.blog-description {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.email-input {
+    outline: none;
+    padding: 8px 0;
+    
+}
+
+.subscribe-button {
+    
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+   
+}
+
+.subscribe-button:hover {
+    background-color: darkred;
+   
+}
+
+
+.single-about h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 8px 0;
+}
+.browse-more-button {
+    display: flex;
+}
+.browse-more-button i {
+    line-height: 20px;
+}
+/* blog and about section css end */
+
+
+
+/* footer area CSS */
+.footer-area {
+    padding: 20px 0;
+    background-color: teal;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-profile-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.icons {
+    display: flex;
+    margin-left: 40px;
+}
+.icons a {
+    color: #fff;
+}
+.facebook {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+}
+.instagram {
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: magenta;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+}
+.linkedin {
+    width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+}
